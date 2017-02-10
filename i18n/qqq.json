@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel"
+		]
+	},
+	"bs-extendedfilelist-desc": "Description of this extension",
+	"bluespiceextendedfilelist": "Name of the specialpage provided by this extension"
+}

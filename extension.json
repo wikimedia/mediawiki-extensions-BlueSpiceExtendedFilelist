@@ -1,0 +1,50 @@
+{
+	"name": "BlueSpiceExtendedFilelist",
+	"version": "2.27.0",
+	"url": "",
+	"author": [
+		"Dejan Savuljesku"
+	],
+	"descriptionmsg": "bs-extendedfilelist-desc",
+	"type": "bluespice",
+	"MessagesDirs":{
+		"BlueSpiceExtendedFilelist":[
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceExtendedFilelist": "BlueSpiceExtendedFilelist.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialBlueSpiceExtendedFilelist": "includes/specials/SpecialBlueSpiceExtendedFilelist.php",
+		"BlueSpiceExtendedFilelistHooks": "includes/BlueSpiceExtendedFilelistHooks.php"
+	},
+	"Hooks": {
+		"BSUserSidebarGlobalActionsWidgetGlobalActions": "BlueSpiceExtendedFilelistHooks::onBSUserSidebarGlobalActionsWidgetGlobalActions",
+		"SpecialPage_initList": "BlueSpiceExtendedFilelistHooks::onSpecialPage_initList"
+	},
+	"SpecialPages":{
+		"BlueSpiceExtendedFilelist": "SpecialBlueSpiceExtendedFilelist"
+	},
+	"ResourceModules":{
+		"ext.bluespice.extendedFilelist": {
+			"scripts": "bluespice.extendedFilelist.js",
+			"styles": "bluespice.extendedFilelist.css",
+			"dependencies": [
+				"ext.bluespice.extjs",
+				"ext.bluespice.upload",
+				"ext.bluespice.extjs.filerepo"
+			]
+		}
+
+	},
+	"ResourceFileModulePaths":{
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceExtendedFilelist/resources"
+	},
+	"config": {
+		"_prefix": "bsgEFL",
+		"OverrideStandardFilelist": false
+	},
+	"manifest_version": 1
+}
