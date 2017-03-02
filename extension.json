@@ -35,8 +35,13 @@
 				"ext.bluespice.upload",
 				"ext.bluespice.extjs.filerepo"
 			]
+		},
+		"ext.bluespice.extendedFilelist.plugin.mmv": {
+			"scripts": "bluespice.extendedFilelist.plugin.mmv.js",
+			"dependencies": [
+				"mmv.bootstrap"
+			]
 		}
-
 	},
 	"ResourceFileModulePaths":{
 		"localBasePath": "resources",
@@ -44,7 +49,8 @@
 	},
 	"config": {
 		"_prefix": "bsgEFL",
-		"OverrideStandardFilelist": false
+		"OverrideStandardFilelist": false,
+		"PluginModules": []
 	},
 	"manifest_version": 1
 }
