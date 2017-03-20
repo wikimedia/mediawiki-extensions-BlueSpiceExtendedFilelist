@@ -13,7 +13,7 @@
 		]
 	},
 	"ExtensionMessagesFiles": {
-		"BlueSpiceExtendedFilelist": "BlueSpiceExtendedFilelist.alias.php"
+		"BlueSpiceExtendedFilelistAlias": "BlueSpiceExtendedFilelist.alias.php"
 	},
 	"AutoloadClasses": {
 		"SpecialBlueSpiceExtendedFilelist": "includes/specials/SpecialBlueSpiceExtendedFilelist.php",
