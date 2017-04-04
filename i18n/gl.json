@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
+	"bs-extendedfilelist-desc": "Proporciona unha páxina especial para interactuar co repositorio de ficheiros do wiki",
 	"bluespiceextendedfilelist": "Lista extendida de ficheiros"
 }
