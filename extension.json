@@ -21,6 +21,7 @@
 	},
 	"Hooks": {
 		"BSUserSidebarGlobalActionsWidgetGlobalActions": "BlueSpiceExtendedFilelistHooks::onBSUserSidebarGlobalActionsWidgetGlobalActions",
+		"ResourceLoaderRegisterModules": "BlueSpiceExtendedFilelistHooks::onResourceLoaderRegisterModules",
 		"SpecialPage_initList": "BlueSpiceExtendedFilelistHooks::onSpecialPage_initList"
 	},
 	"SpecialPages":{
@@ -34,12 +35,6 @@
 				"ext.bluespice.extjs",
 				"ext.bluespice.upload",
 				"ext.bluespice.extjs.filerepo"
-			]
-		},
-		"ext.bluespice.extendedFilelist.plugin.mmv": {
-			"scripts": "bluespice.extendedFilelist.plugin.mmv.js",
-			"dependencies": [
-				"mmv.bootstrap"
 			]
 		}
 	},
