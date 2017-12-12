@@ -1,5 +1,6 @@
 {
 	"name": "mediawiki/blue-spice-extended-filelist",
+	"license": "GPL-3.0",
 	"type": "mediawiki-extension",
 	"description": "Provides a special page to interact with the wiki file repo",
 	"require": {

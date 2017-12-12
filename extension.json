@@ -1,6 +1,7 @@
 {
 	"name": "BlueSpiceExtendedFilelist",
-	"version": "2.27.1",
+	"version": "3.0.0-alpha",
+	"license-name": "GPL-3.0",
 	"url": "https://help.bluespice.com",
 	"author": [
 		"Dejan Savuljesku"
