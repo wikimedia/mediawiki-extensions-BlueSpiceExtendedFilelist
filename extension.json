@@ -16,12 +16,15 @@
 	"ExtensionMessagesFiles": {
 		"BlueSpiceExtendedFilelistAlias": "BlueSpiceExtendedFilelist.alias.php"
 	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ExtendedFilelist\\": "src/"
+	},
 	"AutoloadClasses": {
 		"SpecialBlueSpiceExtendedFilelist": "includes/specials/SpecialBlueSpiceExtendedFilelist.php",
 		"BlueSpiceExtendedFilelistHooks": "includes/BlueSpiceExtendedFilelistHooks.php"
 	},
 	"Hooks": {
-		"BSUserSidebarGlobalActionsWidgetGlobalActions": "BlueSpiceExtendedFilelistHooks::onBSUserSidebarGlobalActionsWidgetGlobalActions",
+		"SkinTemplateOutputPageBeforeExec": "\\BlueSpice\\ExtendedFilelist\\Hook\\SkinTemplateOutputPageBeforeExec\\AddExtendedFilelist::callback",
 		"ResourceLoaderRegisterModules": "BlueSpiceExtendedFilelistHooks::onResourceLoaderRegisterModules",
 		"SpecialPage_initList": "BlueSpiceExtendedFilelistHooks::onSpecialPage_initList"
 	},
