@@ -8,6 +8,12 @@
 	],
 	"descriptionmsg": "bs-extendedfilelist-desc",
 	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": "*"
+		}
+	},
 	"MessagesDirs":{
 		"BlueSpiceExtendedFilelist":[
 			"i18n"
