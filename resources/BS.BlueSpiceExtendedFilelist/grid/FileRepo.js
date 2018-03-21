@@ -1,6 +1,11 @@
 Ext.define( 'BS.BlueSpiceExtendedFilelist.grid.FileRepo', {
 	extend: 'BS.grid.FileRepo',
 
+	initComponent: function() {
+		this.callParent( arguments );
+		this.colPageCategories.setHidden( false );
+	},
+
 	makePagingToolbar: function( items ) {
 		this.cbPageSizeTop = this.makePageSizeCombo();
 
@@ -64,8 +69,6 @@ Ext.define( 'BS.BlueSpiceExtendedFilelist.grid.FileRepo', {
 
 	makeColumns: function() {
 		this.callParent( arguments );
-
-		this.colPageCategories.show();
 
 		return {
 			items: [
