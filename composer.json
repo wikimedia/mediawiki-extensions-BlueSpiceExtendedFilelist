@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/blue-spice-extended-filelist",
+	"name": "bluespice/extendedfilelist",
 	"license": "GPL-3.0-only",
 	"type": "mediawiki-extension",
 	"description": "Provides a special page to interact with the wiki file repo",
@@ -19,5 +19,8 @@
 		"fix": [
 			"minus-x fix ."
 		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceExtendedFilelist"
 	}
 }
