@@ -2,7 +2,7 @@
 	"name": "BlueSpiceExtendedFilelist",
 	"version": "3.0.0-beta",
 	"license-name": "GPL-3.0-only",
-	"url": "https://help.bluespice.com",
+	"url": "https://help.bluespice.com/index.php/BlueSpiceExtendedFilelist",
 	"author": [
 		"Dejan Savuljesku"
 	],
@@ -52,10 +52,14 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceExtendedFilelist/resources"
 	},
+	"config_prefix":"bsg",
 	"config": {
-		"_prefix": "bsgEFL",
-		"OverrideStandardFilelist": false,
-		"PluginModules": []
+		"EFLOverrideStandardFilelist": {
+			"value": false
+		},
+		"EFLPluginModules": {
+			"value": []
+		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
