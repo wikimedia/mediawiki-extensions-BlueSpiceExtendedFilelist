@@ -22,7 +22,7 @@ class AddExtendedFilelist extends SkinTemplateOutputPageBeforeExec {
 					'href' => $oSpecialExtendedFilelist->getPageTitle()->getFullURL(),
 					'text' => $oSpecialExtendedFilelist->getDescription(),
 					'title' => $oSpecialExtendedFilelist->getPageTitle(),
-					'classes' => ' icon-file-text ',
+					'iconClass' => ' icon-file-text ',
 					'data-permissions' => 'read'
 				]
 			]
