@@ -40,12 +40,14 @@
 	"ResourceModules":{
 		"ext.bluespice.extendedFilelist": {
 			"scripts": "bluespice.extendedFilelist.js",
-			"styles": "bluespice.extendedFilelist.css",
 			"dependencies": [
 				"ext.bluespice.extjs",
 				"ext.bluespice.upload",
 				"ext.bluespice.extjs.filerepo"
 			]
+		},
+		"ext.bluespice.extendedFilelist.styles": {
+			"styles": "bluespice.extendedFilelist.css"
 		}
 	},
 	"ResourceFileModulePaths":{
