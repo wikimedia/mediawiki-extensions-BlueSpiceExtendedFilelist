@@ -8,6 +8,16 @@
 	],
 	"descriptionmsg": "bs-extendedfilelist-desc",
 	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceExtendedFilelist": {
+					"className": "\\BlueSpice\\ExtendedFilelist\\Extension",
+					"extPath": "/BlueSpiceExtendedFilelist"
+				}
+			}
+		}
+	},
 	"requires": {
 		"MediaWiki": ">= 1.31.0",
 		"extensions": {
