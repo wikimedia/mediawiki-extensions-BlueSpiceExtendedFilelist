@@ -1,17 +1,17 @@
 <?php
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English */
-$specialPageAliases['en'] = array(
-	'BlueSpiceExtendedFilelist' => array( 'ExtendedFilelist', 'BlueSpiceExtendedFilelist' )
-);
+$specialPageAliases['en'] = [
+	'BlueSpiceExtendedFilelist' => [ 'ExtendedFilelist', 'BlueSpiceExtendedFilelist' ]
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'BlueSpiceExtendedFilelist' => array( 'Erweiterte Dateiliste' )
-);
+$specialPageAliases['de'] = [
+	'BlueSpiceExtendedFilelist' => [ 'Erweiterte Dateiliste' ]
+];
 
 /** Hebrew (עברית) */
-$specialPageAliases['he'] = array(
-	'BlueSpiceExtendedFilelist' => array( 'רשימת_קבצים_מורחבת' )
-);
+$specialPageAliases['he'] = [
+	'BlueSpiceExtendedFilelist' => [ 'רשימת_קבצים_מורחבת' ]
+];

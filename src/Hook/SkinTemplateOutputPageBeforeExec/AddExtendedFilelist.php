@@ -9,7 +9,7 @@ class AddExtendedFilelist extends SkinTemplateOutputPageBeforeExec {
 	protected function doProcess() {
 		global $bsgEFLOverrideStandardFilelist;
 
-		if( $bsgEFLOverrideStandardFilelist ) {
+		if ( $bsgEFLOverrideStandardFilelist ) {
 			return true;
 		}
 
