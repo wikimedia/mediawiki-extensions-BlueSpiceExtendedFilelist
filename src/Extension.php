@@ -2,4 +2,5 @@
 
 namespace BlueSpice\ExtendedFilelist;
 
-class Extension extends \BlueSpice\Extension {}
+class Extension extends \BlueSpice\Extension {
+}
