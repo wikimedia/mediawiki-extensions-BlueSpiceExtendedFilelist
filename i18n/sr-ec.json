@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"BadDog"
 		]
 	},
-	"bs-extendedfilelist-desc": "Пружа посебну страницу за интеракцију са складиштем вики датотека",
+	"bs-extendedfilelist-desc": "Пружа посебну страницу за интеракцију са спремиштем вики датотека",
 	"bluespiceextendedfilelist": "Проширен списак датотека"
 }
