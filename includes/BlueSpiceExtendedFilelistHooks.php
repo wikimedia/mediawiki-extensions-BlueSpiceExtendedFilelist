@@ -1,10 +1,18 @@
 <?php
 
+use BlueSpice\Services;
+
 class BlueSpiceExtendedFilelistHooks {
 
+	/**
+	 *
+	 * @param string &$aSpecialPages
+	 * @return bool
+	 */
 	public static function onSpecialPage_initList( &$aSpecialPages ) {
-		global $bsgEFLOverrideStandardFilelist;
-		if ( $bsgEFLOverrideStandardFilelist ) {
+		$config = Services::getInstance()->getConfigFactory()->makeConfig( 'bsg' );
+
+		if ( $config->get( 'EFLOverrideStandardFilelist' ) ) {
 			$aSpecialPages['Listfiles'] = 'SpecialBlueSpiceExtendedFilelist';
 		}
 		return true;
