@@ -6,10 +6,12 @@ use BlueSpice\Hook\SkinTemplateOutputPageBeforeExec;
 use BlueSpice\SkinData;
 
 class AddExtendedFilelist extends SkinTemplateOutputPageBeforeExec {
+	/**
+	 *
+	 * @return bool
+	 */
 	protected function doProcess() {
-		global $bsgEFLOverrideStandardFilelist;
-
-		if ( $bsgEFLOverrideStandardFilelist ) {
+		if ( $this->getConfig()->get( 'EFLOverrideStandardFilelist' ) ) {
 			return true;
 		}
 
