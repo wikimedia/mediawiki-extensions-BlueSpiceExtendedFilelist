@@ -3,7 +3,6 @@ Ext.define( 'BS.BlueSpiceExtendedFilelist.grid.FileRepo', {
 
 	initComponent: function() {
 		this.callParent( arguments );
-		this.colPageCategories.setHidden( false );
 	},
 
 	makePagingToolbar: function( items ) {
@@ -71,7 +70,9 @@ Ext.define( 'BS.BlueSpiceExtendedFilelist.grid.FileRepo', {
 
 	makeColumns: function() {
 		this.callParent( arguments );
-
+		//this.colPageCategories.setHidden( flase ) triggers a re-render which
+		//sadly forgets the filters plugin. This is a bit hacky but works
+		this.colPageCategories.hidden = false;
 		return {
 			items: [
 				this.colFileThumb,
