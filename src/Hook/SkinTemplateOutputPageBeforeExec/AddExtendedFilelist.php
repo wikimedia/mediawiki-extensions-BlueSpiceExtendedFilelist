@@ -15,7 +15,9 @@ class AddExtendedFilelist extends SkinTemplateOutputPageBeforeExec {
 			return true;
 		}
 
-		$oSpecialExtendedFilelist = \SpecialPageFactory::getPage( 'BlueSpiceExtendedFilelist' );
+		$oSpecialExtendedFilelist = \MediaWiki\MediaWikiServices::getInstance()
+			->getSpecialPageFactory()
+			->getPage( 'BlueSpiceExtendedFilelist' );
 
 		$this->mergeSkinDataArray(
 			SkinData::GLOBAL_ACTIONS,
