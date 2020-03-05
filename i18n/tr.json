@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"By erdo can"
+			"By erdo can",
+			"BaRaN6161 TURK"
 		]
 	},
-	"bs-extendedfilelist-desc": "Wiki dosyası deposuyla etkileşime geçmek için özel bir sayfa sunar",
+	"bs-extendedfilelist-desc": "Viki dosyası deposuyla etkileşime geçmek için özel bir sayfa sunar",
 	"bluespiceextendedfilelist": "Genişletilmiş dosya listesi"
 }
