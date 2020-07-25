@@ -1,11 +1,11 @@
 <?php
 
-namespace BlueSpice\ExtendedFilelist\Hook\SkinTemplateOutputPageBeforeExec;
+namespace BlueSpice\ExtendedFilelist\Hook\ChameleonSkinTemplateOutputPageBeforeExec;
 
-use BlueSpice\Hook\SkinTemplateOutputPageBeforeExec;
+use BlueSpice\Calumma\Hook\ChameleonSkinTemplateOutputPageBeforeExec;
 use BlueSpice\SkinData;
 
-class AddExtendedFilelist extends SkinTemplateOutputPageBeforeExec {
+class AddExtendedFilelist extends ChameleonSkinTemplateOutputPageBeforeExec {
 	/**
 	 *
 	 * @return bool
