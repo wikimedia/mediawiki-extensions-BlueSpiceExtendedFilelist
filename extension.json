@@ -40,7 +40,7 @@
 		"BlueSpiceExtendedFilelistHooks": "includes/BlueSpiceExtendedFilelistHooks.php"
 	},
 	"Hooks": {
-		"SkinTemplateOutputPageBeforeExec": "\\BlueSpice\\ExtendedFilelist\\Hook\\SkinTemplateOutputPageBeforeExec\\AddExtendedFilelist::callback",
+		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\ExtendedFilelist\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddExtendedFilelist::callback",
 		"ResourceLoaderRegisterModules": "BlueSpiceExtendedFilelistHooks::onResourceLoaderRegisterModules",
 		"SpecialPage_initList": "BlueSpiceExtendedFilelistHooks::onSpecialPage_initList"
 	},
