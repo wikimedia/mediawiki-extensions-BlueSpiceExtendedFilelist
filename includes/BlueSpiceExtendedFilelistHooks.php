@@ -1,6 +1,6 @@
 <?php
 
-use BlueSpice\Services;
+use MediaWiki\MediaWikiServices;
 
 class BlueSpiceExtendedFilelistHooks {
 
@@ -10,7 +10,7 @@ class BlueSpiceExtendedFilelistHooks {
 	 * @return bool
 	 */
 	public static function onSpecialPage_initList( &$aSpecialPages ) {
-		$config = Services::getInstance()->getConfigFactory()->makeConfig( 'bsg' );
+		$config = MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'bsg' );
 
 		if ( $config->get( 'EFLOverrideStandardFilelist' ) ) {
 			$aSpecialPages['Listfiles'] = 'SpecialBlueSpiceExtendedFilelist';
