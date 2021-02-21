@@ -24,8 +24,8 @@
 			"BlueSpiceFoundation": "~3.1"
 		}
 	},
-	"MessagesDirs":{
-		"BlueSpiceExtendedFilelist":[
+	"MessagesDirs": {
+		"BlueSpiceExtendedFilelist": [
 			"i18n"
 		]
 	},
@@ -44,10 +44,10 @@
 		"ResourceLoaderRegisterModules": "BlueSpiceExtendedFilelistHooks::onResourceLoaderRegisterModules",
 		"SpecialPage_initList": "BlueSpiceExtendedFilelistHooks::onSpecialPage_initList"
 	},
-	"SpecialPages":{
+	"SpecialPages": {
 		"BlueSpiceExtendedFilelist": "SpecialBlueSpiceExtendedFilelist"
 	},
-	"ResourceModules":{
+	"ResourceModules": {
 		"ext.bluespice.extendedFilelist": {
 			"scripts": "bluespice.extendedFilelist.js",
 			"dependencies": [
@@ -60,11 +60,11 @@
 			"styles": "bluespice.extendedFilelist.css"
 		}
 	},
-	"ResourceFileModulePaths":{
+	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceExtendedFilelist/resources"
 	},
-	"config_prefix":"bsg",
+	"config_prefix": "bsg",
 	"config": {
 		"EFLOverrideStandardFilelist": {
 			"value": false
