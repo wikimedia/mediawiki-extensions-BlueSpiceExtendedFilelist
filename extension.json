@@ -39,10 +39,16 @@
 		"SpecialBlueSpiceExtendedFilelist": "includes/specials/SpecialBlueSpiceExtendedFilelist.php",
 		"BlueSpiceExtendedFilelistHooks": "includes/BlueSpiceExtendedFilelistHooks.php"
 	},
+	"HookHandlers": {
+		"main": {
+			"class": "\\BlueSpice\\ExtendedFilelist\\HookHandler\\Main"
+		}
+	},
 	"Hooks": {
 		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\ExtendedFilelist\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddExtendedFilelist::callback",
 		"ResourceLoaderRegisterModules": "BlueSpiceExtendedFilelistHooks::onResourceLoaderRegisterModules",
-		"SpecialPage_initList": "BlueSpiceExtendedFilelistHooks::onSpecialPage_initList"
+		"SpecialPage_initList": "BlueSpiceExtendedFilelistHooks::onSpecialPage_initList",
+		"MWStakeCommonUIRegisterSkinSlotComponents": "main"
 	},
 	"SpecialPages": {
 		"BlueSpiceExtendedFilelist": "SpecialBlueSpiceExtendedFilelist"
