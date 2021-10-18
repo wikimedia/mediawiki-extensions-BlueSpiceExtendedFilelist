@@ -5,7 +5,7 @@ namespace BlueSpice\ExtendedFilelist\HookHandler;
 use BlueSpice\ExtendedFilelist\GlobalActionsTool;
 use MWStake\MediaWiki\Component\CommonUserInterface\Hook\MWStakeCommonUIRegisterSkinSlotComponents;
 
-class Main implements MWStakeCommonUIRegisterSkinSlotComponents {
+class CommonUserInterface implements MWStakeCommonUIRegisterSkinSlotComponents {
 
 	/**
 	 * @inheritDoc
@@ -15,7 +15,7 @@ class Main implements MWStakeCommonUIRegisterSkinSlotComponents {
 			'GlobalActionsTools',
 			[
 				'special-bluespice-extendedfilelist' => [
-					'factory' => function () {
+					'factory' => static function () {
 						return new GlobalActionsTool();
 					}
 				]
