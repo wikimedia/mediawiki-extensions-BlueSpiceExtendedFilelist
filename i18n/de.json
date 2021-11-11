@@ -6,5 +6,6 @@
 		]
 	},
 	"bs-extendedfilelist-desc": "Erweitert das Wiki um eine Spezialseite zur Interaktion mit dem Dateirepositorium des Wikis",
-	"bluespiceextendedfilelist": "Erweiterte Dateiliste"
+	"bluespiceextendedfilelist": "Erweiterte Dateiliste",
+	"bs-extendedfilelist-globalactionentry-filelist": "Dateiliste"
 }
