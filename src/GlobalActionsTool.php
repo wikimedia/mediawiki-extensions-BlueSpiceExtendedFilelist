@@ -42,7 +42,7 @@ class GlobalActionsTool extends RestrictedTextLink {
 	 * @return Message
 	 */
 	public function getText(): Message {
-		return Message::newFromKey( 'bluespiceextendedfilelist' );
+		return Message::newFromKey( 'bs-extendedfilelist-globalactionentry-filelist' );
 	}
 
 	/**
@@ -50,7 +50,7 @@ class GlobalActionsTool extends RestrictedTextLink {
 	 * @return Message
 	 */
 	public function getTitle(): Message {
-		return Message::newFromKey( 'bs-extendedfilelist-desc' );
+		return Message::newFromKey( 'bs-extendedfilelist-globalactionentry-filelist' );
 	}
 
 	/**
