@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"Winston Sung"
 		]
 	},
 	"bs-extendedfilelist-desc": "提供特殊頁面來與 wiki 儲存庫互動",
-	"bluespiceextendedfilelist": "擴充檔案清單"
+	"bluespiceextendedfilelist": "擴充檔案清單",
+	"bs-extendedfilelist-globalactionentry-filelist": "檔案清單"
 }
