@@ -5,5 +5,6 @@
 		]
 	},
 	"bs-extendedfilelist-desc": "Tilbyr en spesialside som samhandler med wikiens fillager",
-	"bluespiceextendedfilelist": "Utvidet filliste"
+	"bluespiceextendedfilelist": "Utvidet filliste",
+	"bs-extendedfilelist-globalactionentry-filelist": "Filliste"
 }
