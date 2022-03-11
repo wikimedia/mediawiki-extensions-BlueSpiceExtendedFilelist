@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"FiberAhmed",
 			"ديفيد"
 		]
 	},
 	"bs-extendedfilelist-desc": "يوفر صفحة خاصة للتفاعل مع مستودع ملف الويكي",
-	"bluespiceextendedfilelist": "قائمة الملفات الموسعة"
+	"bluespiceextendedfilelist": "قائمة الملفات الموسعة",
+	"bs-extendedfilelist-globalactionentry-filelist": "قائمة الملفات"
 }
