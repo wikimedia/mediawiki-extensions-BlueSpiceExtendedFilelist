@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
+			"Ice bulldog",
 			"Piramidion"
 		]
 	},
 	"bs-extendedfilelist-desc": "Забезпечує наявність спеціальної сторінки для взаємодії зі сховищем файлів цієї вікі",
-	"bluespiceextendedfilelist": "Розширений список файлів"
+	"bluespiceextendedfilelist": "Розширений список файлів",
+	"bs-extendedfilelist-globalactionentry-filelist": "Список файлу"
 }
