@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jeeputer"
+			"Jeeputer",
+			"LordProfo"
 		]
 	},
-	"bluespiceextendedfilelist": "گسترش فهرست پرونده"
+	"bluespiceextendedfilelist": "گسترش فهرست پرونده",
+	"bs-extendedfilelist-globalactionentry-filelist": "فهرست پرونده"
 }
