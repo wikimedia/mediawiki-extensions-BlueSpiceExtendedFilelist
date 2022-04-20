@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"DiegoAmbrocio",
 			"Fitoschido",
 			"Jakeukalane"
 		]
 	},
 	"bs-extendedfilelist-desc": "Proporciona una página especial para interactuar con el repositorio de archivos de la wiki",
-	"bluespiceextendedfilelist": "Lista de archivos ampliada"
+	"bluespiceextendedfilelist": "Lista de archivos ampliada",
+	"bs-extendedfilelist-globalactionentry-filelist": "Lista de archivos"
 }
