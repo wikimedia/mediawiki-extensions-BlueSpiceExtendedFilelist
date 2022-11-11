@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Facenapalm"
+			"Facenapalm",
+			"Okras"
 		]
 	},
 	"bs-extendedfilelist-desc": "Предоставляет служебную страницу для взаимодействия с файловым репозиторием вики",
-	"bluespiceextendedfilelist": "Расширенный список файлов"
+	"bluespiceextendedfilelist": "Расширенный список файлов",
+	"bs-extendedfilelist-globalactionentry-filelist": "Список файлов"
 }
