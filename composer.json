@@ -26,5 +26,10 @@
 	},
 	"extra": {
 		"installer-name": "BlueSpiceExtendedFilelist"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
 	}
 }
