@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"BlueCamille",
 			"Gomoko",
 			"Trial"
 		]
 	},
 	"bs-extendedfilelist-desc": "Fournit une page spéciale pour interagir avec le dépôt du wiki",
 	"bluespiceextendedfilelist": "Liste de fichiers étendue",
-	"bs-extendedfilelist-globalactionentry-filelist": "Liste de fichiers"
+	"bs-extendedfilelist-globalactionentry-filelist": "Fichiers"
 }
