@@ -3,5 +3,6 @@
 		"authors": []
 	},
 	"bs-extendedfilelist-desc": "Pruža posebnu stranicu za interakciju sa spremištem viki datoteka",
-	"bluespiceextendedfilelist": "Proširen spisak datoteka"
+	"bluespiceextendedfilelist": "Proširen spisak datoteka",
+	"bs-extendedfilelist-globalactionentry-filelist": "Datoteke"
 }
