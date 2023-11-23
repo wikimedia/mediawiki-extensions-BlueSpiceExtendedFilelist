@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beta16",
 			"GpieroMW",
 			"TheRukk"
 		]
 	},
 	"bs-extendedfilelist-desc": "Fornisce una pagina speciale per interagire con l'archivio di file wiki",
 	"bluespiceextendedfilelist": "Lista file estesa",
-	"bs-extendedfilelist-globalactionentry-filelist": "Elenco dei file"
+	"bs-extendedfilelist-globalactionentry-filelist": "File"
 }
