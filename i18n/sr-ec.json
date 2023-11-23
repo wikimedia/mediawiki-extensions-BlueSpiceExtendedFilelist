@@ -3,9 +3,11 @@
 		"authors": [
 			"BadDog",
 			"Kizule",
+			"Milicevic01",
 			"Zoranzoki21"
 		]
 	},
 	"bs-extendedfilelist-desc": "Пружа посебну страницу за интеракцију са спремиштем вики датотека",
-	"bluespiceextendedfilelist": "Проширен списак датотека"
+	"bluespiceextendedfilelist": "Проширен списак датотека",
+	"bs-extendedfilelist-globalactionentry-filelist": "Датотеке"
 }
