@@ -1,6 +1,6 @@
 (function( mw, bs, undefined){
 	var uploaderConfig = null;
-	if( mw.config.get( 'bsEnableUploads' ) ) {
+	if( mw.config.get( 'bsgEnableUploads' ) ) {
 		uploaderConfig = {};
 	};
 
