@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vlad5250"
+			"Vlad5250",
+			"Bjankuloski06"
 		]
 	},
 	"bs-extendedfilelist-desc": "Дава службена страница за заемодејство со податотечното складиште на викито",
-	"bluespiceextendedfilelist": "Проширен список на податотеки"
+	"bluespiceextendedfilelist": "Проширен список на податотеки",
+	"bs-extendedfilelist-globalactionentry-filelist": "Податотеки"
 }
