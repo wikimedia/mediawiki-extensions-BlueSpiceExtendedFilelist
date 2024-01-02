@@ -3,10 +3,11 @@
 		"authors": [
 			"DiegoAmbrocio",
 			"Fitoschido",
-			"Jakeukalane"
+			"Jakeukalane",
+			"Rodney Araujo"
 		]
 	},
 	"bs-extendedfilelist-desc": "Proporciona una página especial para interactuar con el repositorio de archivos de la wiki",
 	"bluespiceextendedfilelist": "Lista de archivos ampliada",
-	"bs-extendedfilelist-globalactionentry-filelist": "Lista de archivos"
+	"bs-extendedfilelist-globalactionentry-filelist": "Archivos"
 }
