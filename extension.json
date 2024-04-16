@@ -45,7 +45,6 @@
 		}
 	},
 	"Hooks": {
-		"ChameleonSkinTemplateOutputPageBeforeExec": "\\BlueSpice\\ExtendedFilelist\\Hook\\ChameleonSkinTemplateOutputPageBeforeExec\\AddExtendedFilelist::callback",
 		"ResourceLoaderRegisterModules": "BlueSpiceExtendedFilelistHooks::onResourceLoaderRegisterModules",
 		"SpecialPage_initList": "BlueSpiceExtendedFilelistHooks::onSpecialPage_initList",
 		"MWStakeCommonUIRegisterSkinSlotComponents": "common-user-interface"
