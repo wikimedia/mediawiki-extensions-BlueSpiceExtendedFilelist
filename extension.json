@@ -39,15 +39,9 @@
 		"SpecialBlueSpiceExtendedFilelist": "includes/specials/SpecialBlueSpiceExtendedFilelist.php",
 		"BlueSpiceExtendedFilelistHooks": "includes/BlueSpiceExtendedFilelistHooks.php"
 	},
-	"HookHandlers": {
-		"common-user-interface": {
-			"class": "\\BlueSpice\\ExtendedFilelist\\HookHandler\\CommonUserInterface"
-		}
-	},
 	"Hooks": {
 		"ResourceLoaderRegisterModules": "BlueSpiceExtendedFilelistHooks::onResourceLoaderRegisterModules",
-		"SpecialPage_initList": "BlueSpiceExtendedFilelistHooks::onSpecialPage_initList",
-		"MWStakeCommonUIRegisterSkinSlotComponents": "common-user-interface"
+		"SpecialPage_initList": "BlueSpiceExtendedFilelistHooks::onSpecialPage_initList"
 	},
 	"SpecialPages": {
 		"BlueSpiceExtendedFilelist": "SpecialBlueSpiceExtendedFilelist"
