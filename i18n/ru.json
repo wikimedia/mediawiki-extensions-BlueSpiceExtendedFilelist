@@ -5,7 +5,5 @@
 			"Okras"
 		]
 	},
-	"bs-extendedfilelist-desc": "Предоставляет служебную страницу для взаимодействия с файловым репозиторием вики",
-	"bluespiceextendedfilelist": "Расширенный список файлов",
-	"bs-extendedfilelist-globalactionentry-filelist": "Файлы"
+	"bs-extendedfilelist-desc": "Предоставляет служебную страницу для взаимодействия с файловым репозиторием вики"
 }
