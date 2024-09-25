@@ -4,5 +4,6 @@
 			"Dejan Savuljesku"
 		]
 	},
-	"bs-extendedfilelist-desc": "Provides a special page to interact with the wiki file repo"
+	"bs-extendedfilelist-desc": "Provides a special page to interact with the wiki file repo",
+	"bluespiceextendedfilelist": "Extended file list"
 }
