@@ -2,7 +2,7 @@
 
 class SpecialBlueSpiceExtendedFilelist extends \BlueSpice\SpecialPage {
 	public function __construct() {
-		parent::__construct( 'BlueSpiceExtendedFilelist' );
+		parent::__construct( 'BlueSpiceExtendedFilelist', '', false );
 	}
 
 	/**
