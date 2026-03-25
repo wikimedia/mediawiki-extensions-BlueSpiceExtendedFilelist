@@ -6,6 +6,6 @@
 		]
 	},
 	"bs-extendedfilelist-desc": "{{desc|name=BlueSpiceExtendedFilelist|url=https://www.mediawiki.org/wiki/Extension:BlueSpiceExtendedFilelist}}",
-	"bluespiceextendedfilelist": "Name of the specialpage provided by this extension",
+	"bluespiceextendedfilelist": "Name of the specialpage provided by this extension, which is nolonger directly used but will be shown in Special:SpecialPages",
 	"bs-extendedfilelist-globalactionentry-filelist": "Label for \"files\" global action menu entry\n{{Identical|File list}}"
 }
